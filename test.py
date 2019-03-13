@@ -5,12 +5,12 @@ from scipy.spatial import ConvexHull
 
 
 def read_points():
-    file = open("hard_example.txt", "r")
+    file = open("Smalltree.txt", "r")
     lines = file.read().split('\n')[:-1]
     file.close()
     result = []
     for line in lines[1:]:
-        point = line.split('\t')[:3]
+        point = line.split(',')[:3]
         point = [float(number) for number in point]
         result.append(point)
     return result
