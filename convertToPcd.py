@@ -4,7 +4,7 @@ def process_line(line):
 
 
 if __name__ == "__main__":
-    with open("sTree.txt", 'r') as ptx, open("sTree" + ".pcd", 'w') as pcd:
+    with open("Smalltree.txt", 'r') as ptx, open("Smalltree" + ".pcd", 'w') as pcd:
         col = 94803
         row = 1
         pcd_head = '''# .PCD v0.7 - Point Cloud Data file format
