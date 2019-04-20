@@ -1,3 +1,0 @@
-/Users/ruoyang/Desktop/414/research/converter/CMakeFiles/rebuild_cache.dir
-/Users/ruoyang/Desktop/414/research/converter/CMakeFiles/edit_cache.dir
-/Users/ruoyang/Desktop/414/research/converter/CMakeFiles/converter.dir
