@@ -36,7 +36,8 @@
 % \urldef{\mailsc}\path|erika.siebert-cole, peter.strasser, lncs}@springer.com|
 % \newcommand{\keywords}[1]{\par\addvspace\baselineskip
 % \noindent\keywordname\enspace\ignorespaces#1}
-
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
 \begin{document}
 
 %\mainmatter  % start of an individual contribution
@@ -174,9 +175,9 @@ The Convex Hull algorithm will connect all the points in our point cloud. The re
 
 
 \section{Abortive Experiments}
-Since we focused on analyzing the point cloud of irregular shaped data, our first approach is to segment the irregular shaped part into smaller objects with regular shapes. 
+Since we focused on analyzing the point cloud of irregular shaped data, our first approach was to segment the irregular shaped part into smaller objects with regular shapes. 
 \subsection{Euclidean Cluster Extraction algorithm}
-Euclidean clustering essentially groups points that are close together. We set a "closeness" threshold, such that points within this threshold are considered to be part of the same cluster. We also set a minimum and a maximum number of points that a cluster can contain. This helps us to filter out noise (isolated single points) or parts of the surface that weren't segmented out \cite{9}. The outline of this algorithm is:
+Euclidean clustering essentially groups points that are close together. We set a "closeness" threshold, such that points within this threshold are considered to be part of the same cluster. We also set a minimum and a maximum number of points that a cluster can contain. This helps us to filter out noise (isolated single points) or parts of the surface that were not segmented out \cite{9}. The outline of this algorithm is:
 \begin{enumerate}
 \item Create a Kd-tree representation for the input point cloud dataset P.
 \item Set up an empty list of clusters C , and a queue of the points that need to be checked Q.
@@ -236,7 +237,7 @@ The overview of our proposed method is presented in Fig.\ref{fig:framework}  whi
 \end{figure}
 
 \subsection{Preprossessing}
-Preprocessing is a fundamental step of calculating the accurate volume of a tree point cloud. In this paper, for reconstructing a meticulous mesh using the point cloud, several prepossessing steps are needed. 
+Preprocessing is a fundamental step of calculating the accurate volume of a tree point cloud. In this paper, for reconstructing a meticulous mesh using the point cloud, two prepossessing steps are needed. 
 \subsubsection{Convert To PCD Format}
 Since the point cloud data we collected was initially stored in TXT format, we need to convert our data into PCD format for the following advantages over other file format \cite{11}:
 \begin{enumerate}
@@ -250,9 +251,9 @@ Since the point cloud data we collected was initially stored in TXT format, we n
 \subsubsection{Removing outliers using a Statistical Outlier Removal filter}
 The point cloud data gathered from Laser scans has a varying point densities. Also, there are some measurement errors which may cause visible outliers. The varying densities and outliers will lead to bias, and make our further steps such as normal calculation complicated. We are going to apply a Statistical Outlier Removal filter on our point clouds.
 
-Our sparse outlier removal is based on the computation of the distribution of point to neighbors distances in the input dataset. For each point, we compute the mean distance from it to all its neighbors. By assuming that the resulted distribution is Gaussian with a mean and a standard deviation, all points whose mean distances are outside an interval defined by the global distances mean and standard deviation can be considered as outliers and trimmed from the dataset. \cite{12}
+Our sparse outlier removal is based on the computation of the distribution of point to neighbors distances in the input dataset. For each point, we compute the mean distance from it to all its neighbors. By assuming that the resulted distribution is Gaussian with a mean and a standard deviation, all points whose mean distances are outside an interval defined by the global distances mean and standard deviation can be considered as outliers and trimmed from the dataset\cite{12}.
 
-The following picture shows the effects of applying SOR filter on a point cloud. The graphic shows the mean k-nearest neighbor distances in a point neighborhood before and after filtering. \cite{12}
+The following picture Fig. \ref{fig:SOR} shows the effects of applying SOR filter on a point cloud. The graphic shows the mean k-nearest neighbor distances in a point neighborhood before and after filtering\cite{12}.
 
 \begin{figure}
 \centering
@@ -276,7 +277,7 @@ We can see the comparison before and after removing the outliers from Fig.  \ref
 \caption{Comparison between the point cloud before and after removing the outliers}
 \label{fig:fiiter-comparison}
 \end{figure}
-
+\newpage
 \subsection{Computing normals of the point clouds}
 Surface normals are significant for a surface, it is important for generating good visual effects. Hence, normal estimation is a necessary preprocessing step for our project.There are many approaches for estimating the normals of the point cloud. In 1992, Hugues published his work about surface reconstruction from unorganized points \cite{14}, in this article, he estimates normals approximating a tangent plane with a regression that is computed efficiently by principal component analysis (PCA). And Alexandre presents a new method based on a robust version of the Randomized Hough Transform (RHT) which consider the filled Hough
 transform accumulator as an image of the discrete probability distribution of possible normals. In the following code, we used the normal estimation function provided by PCL which is based on Hugues implementation.
@@ -364,7 +365,7 @@ We can adjust the thresholds of the max size for Close Holes; the holes should b
 \end{figure}
 
 \subsection{Calculating the volume from the buttress mesh}
-Since we have the accurate mesh presentation of the buttress, we use the following algorithm to calculate the volume:
+Since we have the accurate mesh presentation of the buttress, we use a polyhedron volume calculation algorithm introduced by Sheue-ling and James to calculate the volume\cite{17}:
 The mesh surfaces consist of tons of triangles. We build up a coordinate, and connect the vertexes of triangles with the origin(0,0,0). Then we can get a tetrahedron, whose volume can be calculated by
 \begin{equation}
 V = \frac{1}{6}(v_1 \times v_2) \cdot v_3
@@ -381,7 +382,7 @@ The final result we get from this algorithm is shown in Fig. \ref{fig:mesh-volum
 \end{figure}
 
 \section{Conclusion}
-We presented a point cloud analysis method for calculating the volume of irregular-shaped buttress. This advantage of this method over other volume estimation methods is that this method has high accuracy all different shaped buttress. Since this method is based on Poisson Reconstruction, we can keep a high accuracy when applying this method to an irregular shaped buttress just like we shown in the article. In future work, we can focus on developing an automative workflow of the buttress segmentation and hole closing.
+We presented a point cloud analysis method which can calculate the volume of any irregular-shaped buttress roots. This advantage of this method over other volume estimation methods is that this method has high accuracy all different shaped buttress. Since this method is based on Poisson Reconstruction, we can keep a high accuracy when applying this method to an irregular shaped buttress just like we shown in the article. There is still a limitation that we need to segment the buttress roots and close holes manually. In future work, we can focus on developing an automotive workflow of the buttress segmentation and hole closing.
 \newpage
 \begin{thebibliography}{4}
 \bibitem{1}Norbert Haala, Ralf Reulke, Michael Thies, Tobias Aschoff (2004). Combination of terrestrial Laser Scanning with high resolution panoramic Images for Investigations in Forest Applications and tree species recognition.
@@ -400,6 +401,7 @@ We presented a point cloud analysis method for calculating the volume of irregul
 \bibitem{14}Hoppe, H. (1995). Surface reconstruction from unorganized points. Ann Arbor, Mi: University Microfilms International.
 \bibitem{15}Estimating Surface Normals in a PointCloud, Retrieved from http://pointclouds.org/documentation/tutorials/normal\_estimation.php
 \bibitem{16}Michael K. Matthew B. Hugues H. (2006) .Poisson Surface Reconstruction. Retrieved from http://www.cs.jhu.edu/~misha/MyPapers/SGP06.pdf
+\bibitem{17} Sheue-ling Lien, James T. Kajiya (1984). A symbolic method for calculating the integral properties of arbitrary nonconvex polyhedra. IEEE Computer Graphics and Applications. Volume 4, Issue 10, pages 35-42, doi 10.1109/MCG.1984.6429334
 \end{thebibliography}
 
 

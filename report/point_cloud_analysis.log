@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  25 APR 2019 05:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.25)  25 APR 2019 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -358,21 +358,26 @@ Package: listings 2018/09/02 1.7 (Carsten Heinz)
 (c:/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (./point_cloud_analysis.aux)
+)
+(c:/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(./point_cloud_analysis.aux)
 \openout1 = `point_cloud_analysis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+
 (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count155
@@ -447,12 +452,12 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count161
-LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+LaTeX Font Info:    Try loading font information for U+msa on input line 79.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+LaTeX Font Info:    Try loading font information for U+msb on input line 79.
 
 (c:/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -465,31 +470,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <easy-tree-sample.png, id=13, 365.365pt x 570.13pt>
 File: easy-tree-sample.png Graphic file (type png)
 <use easy-tree-sample.png>
-Package pdftex.def Info: easy-tree-sample.png  used on input line 104.
+Package pdftex.def Info: easy-tree-sample.png  used on input line 105.
 (pdftex.def)             Requested size: 104.1381pt x 162.49744pt.
 <complex-tree-sample.png, id=15, 815.045pt x 763.85374pt>
 File: complex-tree-sample.png Graphic file (type png)
 <use complex-tree-sample.png>
-Package pdftex.def Info: complex-tree-sample.png  used on input line 110.
+Package pdftex.def Info: complex-tree-sample.png  used on input line 111.
 (pdftex.def)             Requested size: 173.56177pt x 162.65186pt.
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 103--114
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 104--115
 []$[]$ $[]$ 
  []
 
 <The_existing_segmentation.png, id=16, 230.8625pt x 622.325pt>
 File: The_existing_segmentation.png Graphic file (type png)
 <use The_existing_segmentation.png>
-Package pdftex.def Info: The_existing_segmentation.png  used on input line 123.
+Package pdftex.def Info: The_existing_segmentation.png  used on input line 124.
 
 (pdftex.def)             Requested size: 52.06905pt x 140.35893pt.
 <Cylinders_and_planes.png, id=17, 199.11891pt x 135.88266pt>
 File: Cylinders_and_planes.png Graphic file (type png)
 <use Cylinders_and_planes.png>
-Package pdftex.def Info: Cylinders_and_planes.png  used on input line 129.
+Package pdftex.def Info: Cylinders_and_planes.png  used on input line 130.
 (pdftex.def)             Requested size: 173.56177pt x 118.44708pt.
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 121--133
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 122--134
 []$[]$ $[]$ 
  []
 
@@ -497,17 +502,17 @@ Overfull \hbox (2.05554pt too wide) in paragraph at lines 121--133
 <complex_buttress.jpg, id=24, 123.89143pt x 82.59428pt>
 File: complex_buttress.jpg Graphic file (type jpg)
 <use complex_buttress.jpg>
-Package pdftex.def Info: complex_buttress.jpg  used on input line 139.
+Package pdftex.def Info: complex_buttress.jpg  used on input line 140.
 (pdftex.def)             Requested size: 123.89111pt x 82.59407pt.
  [4 <./The_existing_segmentation.png> <./Cylinders_and_planes.PNG> <./complex_b
 uttress.jpg>]
 <ConvexHull1.png, id=30, 1606.0pt x 1447.4075pt>
 File: ConvexHull1.png Graphic file (type png)
 <use ConvexHull1.png>
-Package pdftex.def Info: ConvexHull1.png  used on input line 150.
+Package pdftex.def Info: ConvexHull1.png  used on input line 151.
 (pdftex.def)             Requested size: 160.6094pt x 144.74922pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 148--154
+Overfull \hbox (20.00003pt too wide) in paragraph at lines 149--155
 []$[]$ 
  []
 
@@ -515,20 +520,20 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 148--154
 <ikea_buttress_SOR.PNG, id=35, 288.7036pt x 213.42235pt>
 File: ikea_buttress_SOR.PNG Graphic file (type png)
 <use ikea_buttress_SOR.PNG>
-Package pdftex.def Info: ikea_buttress_SOR.PNG  used on input line 163.
+Package pdftex.def Info: ikea_buttress_SOR.PNG  used on input line 164.
 (pdftex.def)             Requested size: 173.56177pt x 128.3084pt.
 <Convex.PNG, id=36, 303.38344pt x 311.66437pt>
 File: Convex.PNG Graphic file (type png)
 <use Convex.PNG>
-Package pdftex.def Info: Convex.PNG  used on input line 169.
+Package pdftex.def Info: Convex.PNG  used on input line 170.
 (pdftex.def)             Requested size: 121.4927pt x 124.81096pt.
 
-Underfull \hbox (badness 1189) in paragraph at lines 170--170
+Underfull \hbox (badness 1189) in paragraph at lines 171--171
 []\OT1/cmr/m/n/10 Fig.8: |Sam-ple but-tress with Con-vex
  []
 
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 161--173
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 162--174
 []$[]$ $[]$ 
  []
 
@@ -537,19 +542,19 @@ Overfull \hbox (2.05554pt too wide) in paragraph at lines 161--173
 File: Euclidean-cluster-extraction-result.png Graphic file (type png)
 <use Euclidean-cluster-extraction-result.png>
 Package pdftex.def Info: Euclidean-cluster-extraction-result.png  used on input
- line 200.
+ line 201.
 (pdftex.def)             Requested size: 252.49525pt x 204.39017pt.
 <cylinder-extraction-result.png, id=43, 688.5725pt x 706.64pt>
 File: cylinder-extraction-result.png Graphic file (type png)
 <use cylinder-extraction-result.png>
-Package pdftex.def Info: cylinder-extraction-result.png  used on input line 211
+Package pdftex.def Info: cylinder-extraction-result.png  used on input line 212
 .
 (pdftex.def)             Requested size: 206.57333pt x 211.99364pt.
  [7 <./Euclidean-cluster-extraction-result.PNG>]
 <Buttress_roots.JPG, id=49, 220.825pt x 165.61874pt>
 File: Buttress_roots.JPG Graphic file (type jpg)
 <use Buttress_roots.JPG>
-Package pdftex.def Info: Buttress_roots.JPG  used on input line 220.
+Package pdftex.def Info: Buttress_roots.JPG  used on input line 221.
 (pdftex.def)             Requested size: 110.41222pt x 82.80916pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -558,30 +563,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <framework.PNG, id=54, 442.65375pt x 848.16875pt>
 File: framework.PNG Graphic file (type png)
 <use framework.PNG>
-Package pdftex.def Info: framework.PNG  used on input line 233.
+Package pdftex.def Info: framework.PNG  used on input line 234.
 (pdftex.def)             Requested size: 154.93112pt x 296.86351pt.
  [9 <./framework.png>]
 <SOR.PNG, id=58, 520.56984pt x 189.33234pt>
 File: SOR.PNG Graphic file (type png)
 <use SOR.PNG>
-Package pdftex.def Info: SOR.PNG  used on input line 259.
+Package pdftex.def Info: SOR.PNG  used on input line 260.
 (pdftex.def)             Requested size: 364.3964pt x 132.53172pt.
 
-Overfull \hbox (17.27286pt too wide) in paragraph at lines 259--260
+Overfull \hbox (17.27286pt too wide) in paragraph at lines 260--261
  [][] 
  []
 
 File: complex-tree-sample.png Graphic file (type png)
 <use complex-tree-sample.png>
-Package pdftex.def Info: complex-tree-sample.png  used on input line 270.
+Package pdftex.def Info: complex-tree-sample.png  used on input line 271.
 (pdftex.def)             Requested size: 156.20453pt x 146.3925pt.
 <after-filter.PNG, id=59, 403.88391pt x 370.38374pt>
 File: after-filter.PNG Graphic file (type png)
 <use after-filter.PNG>
-Package pdftex.def Info: after-filter.PNG  used on input line 274.
+Package pdftex.def Info: after-filter.PNG  used on input line 275.
 (pdftex.def)             Requested size: 156.20453pt x 143.25093pt.
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 269--276
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 270--277
 []$[]$ $[]$ 
  []
 
@@ -589,158 +594,152 @@ Overfull \hbox (2.05554pt too wide) in paragraph at lines 269--276
 <estimate_normal.PNG, id=68, 452.0639pt x 377.53546pt>
 File: estimate_normal.PNG Graphic file (type png)
 <use estimate_normal.PNG>
-Package pdftex.def Info: estimate_normal.PNG  used on input line 297.
+Package pdftex.def Info: estimate_normal.PNG  used on input line 298.
 (pdftex.def)             Requested size: 135.62021pt x 113.2615pt.
  [12 <./estimate_normal.PNG>]
 <equation1.PNG, id=81, 371.88937pt x 100.12407pt>
 File: equation1.PNG Graphic file (type png)
 <use equation1.PNG>
-Package pdftex.def Info: equation1.PNG  used on input line 311.
+Package pdftex.def Info: equation1.PNG  used on input line 312.
 (pdftex.def)             Requested size: 185.94423pt x 50.0619pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--330
+Underfull \hbox (badness 10000) in paragraph at lines 321--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--330
+Underfull \hbox (badness 10000) in paragraph at lines 321--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--330
+Underfull \hbox (badness 10000) in paragraph at lines 321--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--330
+Underfull \hbox (badness 10000) in paragraph at lines 321--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--330
+Underfull \hbox (badness 10000) in paragraph at lines 321--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--330
+Underfull \hbox (badness 10000) in paragraph at lines 321--331
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--330
+Underfull \hbox (badness 10000) in paragraph at lines 321--331
 
  []
 
 <tree_mesh.PNG, id=82, 451.6875pt x 379.04109pt>
 File: tree_mesh.PNG Graphic file (type png)
 <use tree_mesh.PNG>
-Package pdftex.def Info: tree_mesh.PNG  used on input line 333.
+Package pdftex.def Info: tree_mesh.PNG  used on input line 334.
 (pdftex.def)             Requested size: 180.67178pt x 151.61374pt.
 [13 <./equation1.PNG>]
 <segment-mesh.PNG, id=88, 333.87234pt x 360.59718pt>
 File: segment-mesh.PNG Graphic file (type png)
 <use segment-mesh.PNG>
-Package pdftex.def Info: segment-mesh.PNG  used on input line 344.
+Package pdftex.def Info: segment-mesh.PNG  used on input line 345.
 (pdftex.def)             Requested size: 156.20453pt x 168.71037pt.
 <adjusted.PNG, id=89, 338.38922pt x 358.71515pt>
 File: adjusted.PNG Graphic file (type png)
 <use adjusted.PNG>
-Package pdftex.def Info: adjusted.PNG  used on input line 348.
+Package pdftex.def Info: adjusted.PNG  used on input line 349.
 (pdftex.def)             Requested size: 156.20453pt x 165.59116pt.
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 343--350
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 344--351
 []$[]$ $[]$ 
  []
 
 <meshwithhole.PNG, id=90, 338.01282pt x 337.26pt>
 File: meshwithhole.PNG Graphic file (type png)
 <use meshwithhole.PNG>
-Package pdftex.def Info: meshwithhole.PNG  used on input line 356.
+Package pdftex.def Info: meshwithhole.PNG  used on input line 357.
 (pdftex.def)             Requested size: 156.20453pt x 155.86194pt.
 <Closed_hole.PNG, id=91, 423.08063pt x 372.64218pt>
 File: Closed_hole.PNG Graphic file (type png)
 <use Closed_hole.PNG>
-Package pdftex.def Info: Closed_hole.PNG  used on input line 360.
+Package pdftex.def Info: Closed_hole.PNG  used on input line 361.
 (pdftex.def)             Requested size: 156.20453pt x 137.57977pt.
 
-Overfull \hbox (2.05554pt too wide) in paragraph at lines 355--362
+Overfull \hbox (2.05554pt too wide) in paragraph at lines 356--363
 []$[]$ $[]$ 
  []
 
 <finalresults.PNG, id=92, 405.76593pt x 17.31468pt>
 File: finalresults.PNG Graphic file (type png)
 <use finalresults.PNG>
-Package pdftex.def Info: finalresults.PNG  used on input line 378.
+Package pdftex.def Info: finalresults.PNG  used on input line 379.
 (pdftex.def)             Requested size: 324.61317pt x 13.85175pt.
-
-Overfull \hbox (6.23822pt too wide) in paragraph at lines 384--385
-\OT1/cmr/m/n/10 We pre-sented a point cloud anal-y-sis method for cal-cu-lat-in
-g the vol-ume of irregular-
- []
-
 [14 <./tree_mesh.PNG>] [15 <./segment-mesh.PNG> <./adjusted.PNG> <./meshwithhol
 e.PNG> <./Closed_hole.PNG> <./finalresults.PNG>] [16]
-Underfull \hbox (badness 1968) in paragraph at lines 389--390
+Underfull \hbox (badness 1968) in paragraph at lines 390--391
 []\OT1/cmr/m/n/9 Puttonen, E., Suo-ma-lainen, J., Hakala, T., R^^?aikk^^?onen, 
 E., Kaarti-nen, H.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 []\OT1/cmr/m/n/9 G. Vos-sel-man, B.G.H. Gorte, G. Sit-hole and T. Rab-bani(2004
 ),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
 \OT1/cmr/m/n/9 Recog-nis-ing Struc-ture in Laser Scan-ner Point Clouds, re-trie
 ved from
  []
 
 
-Overfull \hbox (327.30142pt too wide) in paragraph at lines 392--393
+Overfull \hbox (327.30142pt too wide) in paragraph at lines 393--394
 \OT1/cmr/m/n/9 https://www.researchgate.net/profile/Ben[]Gorte/publication/2288
 75768[]Recognising[]structure[]in[]laser[]scanner[]point[]clouds/links/0c960524
 18a855e419000000.pdfe 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 []\OT1/cmr/m/n/9 Euclidean Clus-ter Ex-trac-tion Doc-u-men-ta-tion. Re-trieved 
 from
  []
 
 
-Overfull \hbox (104.13235pt too wide) in paragraph at lines 397--398
+Overfull \hbox (104.13235pt too wide) in paragraph at lines 398--399
 []\OT1/cmr/m/n/9 PCD Doc-u-men-ta-tion. Re-trieved from http://pointclouds.org/
 documentation/tutorials/pcd[]file[]format.php/. 
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 398--399
+Underfull \hbox (badness 2096) in paragraph at lines 399--400
 []\OT1/cmr/m/n/9 Removing out-liers us-ing a Sta-tis-ticalOut-lier-Re-moval fil
 -ter. Re-trieved from
  []
 
 
-Overfull \hbox (115.19151pt too wide) in paragraph at lines 399--400
+Overfull \hbox (115.19151pt too wide) in paragraph at lines 400--401
 []\OT1/cmr/m/n/9 Filter Doc-u-men-ta-tion. Re-trieved from http://pointclouds.o
 rg/documentation/tutorials/statistical[]outlier.php/. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 []\OT1/cmr/m/n/9 Estimating Sur-face Nor-mals in a Point-Cloud, Re-trieved from
 
  []
 
 [17] (./point_cloud_analysis.aux) ) 
 Here is how much of TeX's memory you used:
- 6965 strings out of 492616
- 110510 string characters out of 6132768
- 196581 words of memory out of 5000000
- 10743 multiletter control sequences out of 15000+600000
+ 6972 strings out of 492616
+ 110699 string characters out of 6132768
+ 196661 words of memory out of 5000000
+ 10747 multiletter control sequences out of 15000+600000
  13598 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,46p,1456b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -756,7 +755,7 @@ onts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2018/texmf-dist/fonts
 lic/amsfonts/cm/cmr7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr9.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx
 10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on point_cloud_analysis.pdf (17 pages, 4858462 bytes).
+Output written on point_cloud_analysis.pdf (17 pages, 4858847 bytes).
 PDF statistics:
  153 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
